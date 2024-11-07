@@ -13,7 +13,6 @@ import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
 import Footer from "./Footer";
 import { usePathname } from "next/navigation";
-import { link } from "fs";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
