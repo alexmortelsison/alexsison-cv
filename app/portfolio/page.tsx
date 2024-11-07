@@ -1,5 +1,4 @@
 import { FocusCardsDemo } from "@/components/FocusCardsDemo";
-import { FocusCards } from "@/components/ui/focus-cards";
 import React from "react";
 
 export default function PortfolioPage() {
