@@ -11,6 +11,7 @@ import {
 import { Menu, SquareCode } from "lucide-react";
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
+import Footer from "./Footer";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex items-center justify-between max-w-4xl px-12 py-6 mx-auto border-b border-slate-200 lg:h-36 tracking-tighter mb-24">
+    <div className="flex items-center justify-between max-w-4xl px-12 py-6 mx-auto border-b border-muted-foreground lg:h-36 tracking-tighter mb-24">
       <Link
         href={"/"}
         className="font-bold flex text-lg items-center md:text-xl"
@@ -82,6 +83,9 @@ export default function Navbar() {
                 </a>
               </SheetDescription>
             </SheetHeader>
+            <div className="pt-24">
+              <Footer />
+            </div>
           </SheetContent>
         </Sheet>
       </div>
