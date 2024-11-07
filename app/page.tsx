@@ -1,4 +1,3 @@
-import { FocusCardsDemo } from "@/components/FocusCardsDemo";
 import Image from "next/image";
 import PortfolioPage from "./portfolio/page";
 
