@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Alex Sison",
-  description: "NextJs Portfolio Website for Alex Sison",
+  description: "NextJs Portfolio Website - Alex Sison",
 };
 
 export default function RootLayout({
